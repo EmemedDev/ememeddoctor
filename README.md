@@ -8,11 +8,12 @@ ememeddoctor
 
 ###开源库使用心得
 
- * EventBus 一个事件分发库
+ * EventBus 一个事件分发库,用于Activities, Fragments,和后台线程之间传递消息，开销据说较低
 
    [源码地址][1]
 
  * Volley 库使用
+ * 
    [volley框架源码解析][2]
 
 ###开发技巧（及一些坑）
