@@ -18,6 +18,10 @@ ememeddoctor
 
 ###开发技巧（及一些坑）
  * HttpClient会随机报出ConnectTimeoutException，弃用。4.0之后改用HttpUrlConnection会更好。其实Volley底层就是集合了这两货
+ 
+ * UI性能优化
+  > * ListView的每一项item的布局顶层尽量使用相对布局优于线性布局，减少布局层级。
+
 
 
  [1]:https://github.com/greenrobot/EventBus
