@@ -26,3 +26,10 @@ ememeddoctor
 
  [1]:https://github.com/greenrobot/EventBus
  [2]:http://tomkeyzhang.duapp.com/?p=7
+
+##UI设计
+ 
+### icon标准
+ * iPhone ： 57*57  114x114 （4s）
+ * android：72*72 （hdpi）   128*128  （xhpi）
+   
