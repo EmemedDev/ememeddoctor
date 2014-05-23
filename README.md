@@ -16,6 +16,9 @@ ememeddoctor
  * 
    [volley框架源码解析][2]
 
+ * gson  解析json爆好用。不过有少少坑，例如实体要空构造，实体里数组用List不要用ArrayList否则报错。
+   [https://code.google.com/p/google-gson/][3]
+
 ###开发技巧（及一些坑）
  * HttpClient会随机报出ConnectTimeoutException，弃用。4.0之后改用HttpUrlConnection会更好。其实Volley底层就是集合了这两货
  
@@ -26,6 +29,7 @@ ememeddoctor
 
  [1]:https://github.com/greenrobot/EventBus
  [2]:http://tomkeyzhang.duapp.com/?p=7
+ [3]:https://code.google.com/p/google-gson/ 
 
 ##UI设计
  
