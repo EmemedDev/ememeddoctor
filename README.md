@@ -26,8 +26,10 @@ ememeddoctor
   > * ListView的每一项item的布局顶层尽量使用相对布局优于线性布局，减少布局层级。
 
 ###Exception 流水（待考究）
- * lang.UnsupportedOperationException: Can't convert to dimension: 
-    现象：父控件是FrameLayout 子控件有属性 android:layout_marginBottom="" 
+ 
+ * lang.UnsupportedOperationException: Can't convert to dimension
+
+     现象：父控件是FrameLayout 子控件有属性 android:layout_marginBottom="" 
 
  [1]:https://github.com/greenrobot/EventBus
  [2]:http://tomkeyzhang.duapp.com/?p=7
