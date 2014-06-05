@@ -24,6 +24,7 @@ ememeddoctor
  
  * UI性能优化
   > * ListView的每一项item的布局顶层尽量使用相对布局优于线性布局，减少布局层级。
+  > * layout根标签可以尽量用<merge>来优化，布局层级多的可以尝试<ViewStub>按需加载，防止嵌套太深出现StackOverflowError，官方没有公布嵌套布局上限，不过一些低端机器，嵌套12-15层差不多就会报以上错误。
 
 ###Exception 流水（待考究）
  
