@@ -38,7 +38,40 @@ ememeddoctor
 
 ##UI设计
  
-### icon标准
+### 基本标准
  * iPhone ： 57*57  114x114 （4s）
  * android：72*72 （hdpi）   128*128  （xhpi）
+ * 
+### 1.Launcher图标
+图标的最佳宽高是48x48 dp。
+
+ldpi:36*36px,0.75倍密度，一般不用提供，系统会从hdpi取图缩小1倍。
+mdpi:48*48px, 1倍密度
+hdpi:72*72px,1.5倍密度
+xhdpi:96*96px,2倍密度
+xxhdpi:144*144px，3倍密度
+
+###2.Action Bar图标
+图标的最佳宽高是32*32dp。
+
+###3.小图标和上下文图标
+图标的最佳宽高是16*16dp。
+
+###4.通知图标
+图标的最佳宽高是24*24dp。
+
+###5.图标命名原则
+Asset Type	Prefix	Example
+Icons	ic_	ic_star.png
+Launcher icons	ic_launcher	ic_launcher_calendar.png
+Menu icons and Action Bar icons	ic_menu	ic_menu_archive.png
+Status bar icons	ic_stat_notify	ic_stat_notify_msg.png
+Tab icons	ic_tab	ic_tab_recent.png
+Dialog icons	ic_dialog	ic_dialog_info.png
+###6.无损压缩png图片，这个是减小资源图片大小的一个有效途径。
+OptiPNG
+http://optipng.sourceforge.net
+Pngcrush
+http://pmt.sourceforge.net/pngcrush/
+
    
