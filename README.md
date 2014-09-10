@@ -41,7 +41,7 @@ ememeddoctor
 ### 基本标准
  * iPhone ： 57*57  114x114 （4s）
  * android：72*72 （hdpi）   128*128  （xhpi）
- * 
+
 ### 1.Launcher图标
 图标的最佳宽高是48x48 dp。
 
