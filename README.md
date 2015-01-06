@@ -50,6 +50,7 @@ mdpi:48*48px, 1倍密度
 hdpi:72*72px,1.5倍密度
 xhdpi:96*96px,2倍密度
 xxhdpi:144*144px，3倍密度
+xxxhdpi:192*192px
 
 ###2.Action Bar图标
 图标的最佳宽高是32*32dp。
