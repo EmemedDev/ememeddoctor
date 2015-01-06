@@ -45,12 +45,12 @@ ememeddoctor
 ### 1.Launcher图标
 图标的最佳宽高是48x48 dp。
 
-ldpi:36*36px,0.75倍密度，一般不用提供，系统会从hdpi取图缩小1倍。
-mdpi:48*48px, 1倍密度
-hdpi:72*72px,1.5倍密度
-xhdpi:96*96px,2倍密度
-xxhdpi:144*144px，3倍密度
-xxxhdpi:192*192px
+ldpi:36x36px,0.75倍密度，一般不用提供，系统会从hdpi取图缩小1倍。
+mdpi:48x48px, 1倍密度
+hdpi:72x72px,1.5倍密度
+xhdpi:96x96px,2倍密度
+xxhdpi:144x144px，3倍密度
+xxxhdpi:192x192px
 
 ###2.Action Bar图标
 图标的最佳宽高是32*32dp。
